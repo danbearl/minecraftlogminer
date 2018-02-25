@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore sample logs
+samplelogs/
+
 # Distribution / packaging
 .Python
 env/
