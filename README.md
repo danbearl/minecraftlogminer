@@ -10,3 +10,6 @@ Future Features:
 * View player actions such as server commands and conversations
 * View plugin events
 * View plugin and server warnings and errors
+* Present server data in a lightweight Web server accessible to authorized users
+
+This project is maintained by Dan Bearl. 
