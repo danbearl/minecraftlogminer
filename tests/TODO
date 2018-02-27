@@ -1,0 +1,17 @@
+#TODO
+
+##General Path to Completion
+
+1. Read gzipped log file, and commit each row into the database with a timestamp and a unique ID
+2. Extract users from log entries
+  a. Detect new users and create new user entry for each with a unique ID
+  b. Create entry on Join Table linking users to log events
+3. Detect User Log-in events
+  a. Log-in event should join to raw log entry, and user
+  b. Log-in events should also include timestamp and IP address
+4. Detect User Log-out events
+  a. Log-out events should join to raw log entry and user
+  b. Log-out events should include timestamp
+5. Compute User Sessions
+  a. Associate Log-in to Log-Out event
+  b. Calculate total session time
